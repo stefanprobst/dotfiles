@@ -1,0 +1,25 @@
+# See `info readline`
+
+$include /etc/inputrc
+
+# Ctrl-Backspace: Delete word
+#"\C-\b": backward-kill-word
+"\C-H": backward-kill-word
+
+# Ctrl-Del: Delete word
+#"\C-\d": kill-word
+"\e[3;5~": kill-word
+
+# PgUp, PgDown: Search commands in history that start with characters
+# Should be included in global inputrc
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+# Ctrl-Left, Ctrl-Right: Move cursor one word
+# Should be included in global inputrc
+"\e[1;5D" backward-word
+"\e[1;5C" forward-word
+
+set colored-completion-prefix on
+set colored-stats on
+set completion-ignore-case on
