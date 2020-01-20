@@ -2,6 +2,7 @@
 
 PATH=$PATH:~/.yarn/bin
 GTK_USE_PORTAL=1
+ELECTRON_TRASH=kioclient5
 
 # Prompt
 
