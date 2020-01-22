@@ -31,6 +31,7 @@ alias jdb="node --inspect-brk --no-lazy node_modules/.bin/jest --runInBand --no-
 alias gam="git commit -am"
 alias gst="git status"
 alias glg="git log"
+alias grv="git remote -v"
 alias ve="python3 -m venv venv && pip install --upgrade pip setuptools wheel"
 alias va="source venv/bin/activate"
 alias vd="deactivate"
